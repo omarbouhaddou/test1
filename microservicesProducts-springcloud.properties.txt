@@ -1,0 +1,15 @@
+spring.application.name=microservicesProducts-springcloud
+
+spring.h2.console.enabled=true
+spring.datasource.username=admin
+spring.datasource.password=1234
+spring.datasource.url=jdbc:h2:mem:testdb
+spring.jpa.hibernate.ddl-auto=update
+
+spring.cloud.config.enabled=false
+eureka.client.enabled=false
+
+mes-configs.LimitDeProduits = 2
+
+server.port=8085
+spring.profiles.active=dev
